@@ -21,7 +21,7 @@ header h1{
 }
 
 header{
-  padding: 20px 35px;
+  padding: 15px 30px;
   background-color: #39a6b2;
   display:flex;
   justify-content: space-between;
@@ -49,4 +49,50 @@ header nav ul {
   align-items: center;
   list-style: none;
  
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 1.55vw;
+}
+
+.hero {
+  background-image: url(../images/hero.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 50rem;
+  position: relative;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+  
+
+  }
+
+  section{
+    padding: 40px 25px;
+}
+
+
+.hero{
+  background-position: bottom;
+  height:auto;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+
+.bio p{
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
 }
