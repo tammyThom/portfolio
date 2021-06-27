@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>D. Peters</title>
-    <link rel="stylesheet" href="./assets/css/style.css" </head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
 
 <body>
+    <!-- navigation -->
     <header>
         <h1>
             <a href="/">D. Peters</a>
@@ -24,23 +26,35 @@
                     <a href="#contact-me">Contact Me</a>
                 </li>
                 <li>
-                    <a href="#contact-me">Resume </a>
+                    <a href="#resume">curriculum vitae </a>
                 </li>
             </ul>
         </nav>
     </header>
-
+    <!-- hero -->
     <section class="hero">
+        <div class="hero-cta">
+            <p>
+                On a strip to India years ago, I visited one of the word's great wonders - the Taj mahal. It was quit a
+                journey to get there from Delhi. My heart and prayers go out to the people of India as they fight
+                against this pandemic.
 
+            </p>
+        </div>
 
     </section>
     <section id="about-me" class="bio">
-        <img src="./assets/images/hero.jpeg" alt="picture of donna peters" />
+        <!-- <img src="./assets/images/hero.jpeg" alt="picture of donna peters" /> -->
 
         <div>
             <article>
-                <p>I am attending this bootcamp to learn more and gain more experience with development. This is a major
-                    sacrifice for me</p>
+                <h2>About Me</h2>
+                <p>I work fulltime job and I am currently attending the University of Miami Full Stack developer
+                    bootcamp. I am thrilled for this opportunity to learn and complete hands on coding for backend and
+                    frontend. I am motivated to learn with this diverse group of talented individuals.
+
+                    I am passionate about everything related to tech...so grabbed this opportunity when it came along.
+                </p>
             </article>
             <p>testing</p>
             <article>
@@ -49,6 +63,49 @@
 
         </div>
     </section>
+    <!-- contact me section -->
+    <section>
+        <section id="contact-me" class="contact">
+            <div class="flex-row">
+                <h2>Contact Me</h2>
+                <div class="flex-row">
+
+                </div>
+            </div>
+            <!-- change contact-info to contact-address -->
+            <div class="contact-info">
+                <div>
+                    <h3>D. Peters</h3>
+                    <p>Write to me at the address below.
+                        <br>
+                        <br>
+                    </p>
+                    <address>
+                        1320 S Dixie Hwy<br />
+                        Coral Gables, FL 33146<br />
+                        P: 1-305 789 2569<br />
+                        E:<a href="mailto: twobetammy@gmail.com">twobetammy@gmail.com</a>
+                    </address>
+                </div>
+            </div>
+
+            <!-- look for contact-form in css - original has contat-form we have contact-email-->
+            <div class="contact-email">
+                <h3>Email Me</h3>
+                <form>
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name" />
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message"
+                        placeholder="Please reach out for more information or references"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+
+
+        </section>
+
+        </footer>
 
 </body>
 
