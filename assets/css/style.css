@@ -120,6 +120,16 @@ text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
      
     }
 
+  
+
+    .projectiframe{
+      width: 100%
+    }
+
+  .myimage {
+    width: 100%;
+  }
+
     .project iframe{
       height: 400px;
   }
@@ -136,6 +146,13 @@ text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
       margin: 20px;
     flex: 1;
+
+}
+
+
+.emailhead{
+  margin-top: 30px;
+  margin-bottom: 20px;
 
 }
 
@@ -188,6 +205,8 @@ footer{
 
 .contact-info{
   text-align: left;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .contact-info > * {
